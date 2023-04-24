@@ -2,7 +2,7 @@
 
 /*----- constants -----*/   	
 
-const emptyDisplay =''
+const emptyDisplay = ''
 
 /*----- state variables -----*/
 
@@ -91,12 +91,12 @@ function doMath(num1,num2,operation){
   }
 
 function clearDisplay(){
-    display.innerText =''
+    display.innerText =emptyDisplay
 }
 
 function clearAll(){
     firstNum = 0
     secondNum = 0
     result = 0
-    display.innerText =''
+    display.innerText =emptyDisplay
 }
