@@ -1,0 +1,80 @@
+
+body {
+    /* 
+    
+    viewport(browser's screen) units
+    vh - viewport height
+    vw - viewport width
+    vmin - minimum between vh and vw - 
+    vmax - maximum between vh and vw
+    */
+    height: 100vh; /* 100% of the viewport*/
+    margin:0; /* there is always a mimium distance between the page and the browser this gets rid of that*/
+    width:100vw; /* 100% of the viewport*/
+    font-family: 'Roboto Mono', monospace;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+
+}
+
+#calc{
+    background-color:rgb(43, 43, 43);
+    padding: 4vmin;
+    padding-top: 8vmin;
+    border-radius: 6%;
+}
+
+#numTray{
+    display: inline-flex;
+}
+
+#operators{
+    display: grid;
+    grid-template-columns: repeat(1,10vmin);
+    grid-template-rows: repeat(4,10vmin);
+    gap: 1vmin;
+    padding-left: 1vmin;
+}
+#board{
+    display: grid;
+    grid-template-columns: repeat(3,10vmin);
+    grid-template-rows: repeat(4,10vmin);
+    gap: 1vmin;
+}
+
+#board > button{
+    font-size: 3vmin ;
+    border-radius: 8%;
+}
+
+#operators > button{
+    font-size: 3vmin ;
+    border-radius: 8%;
+}
+
+#c{
+    color: white;
+    background-color: aquamarine;
+}
+
+#equals{
+    color: white;
+    background-color: orangered;
+}
+
+#operators > button{
+    background-color: orangered;
+    color: white;
+}
+
+#display{
+    margin: 0 auto;
+    padding: 1vmin;
+    margin-bottom: 1vmin;
+    background-color: rgb(34, 32, 32);
+    border-radius: 1vmin;
+}
