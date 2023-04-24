@@ -66,6 +66,8 @@ function handleEqualsClick(){
     result = doMath(firstNum,secondNum,operator)
     console.log('The result is',result)
     display.innerHTML = result
+    
+    
     firstNum =result
 }
 

@@ -21,10 +21,25 @@ body {
 
 }
 
+header{
+    display: inline-flex;
+    align-items: center;
+    
+}
+
+
+header > p {
+   
+
+   margin: 2.3vmin;
+}
+
+
+
 #calc{
     background-color:rgb(43, 43, 43);
-    padding: 4vmin;
-    padding-top: 8vmin;
+    padding: 3vmin;
+    padding-top: 1vmin;
     border-radius: 6%;
 }
 
